@@ -1,0 +1,103 @@
+{
+	"info": [
+		{
+			"zone": "Lockdown - Grey",
+			"color": "gray",
+			"data": [
+				{
+					"title": "Organized public events, social gatherings and wedding, funeral and religious services, rites and ceremonies",
+					"desc": [
+						{
+							"text": "No indoor organized public events and social gatherings, except with members of the same household",
+							"subtext": "Individuals who live alone, including seniors, may consider having exclusive, close contact with another household to help reduce the negative impacts of social isolation"
+						},
+						{
+							"text": "Limit for outdoor organized public events and social gatherings, where physical distancing can be maintained:",
+							"subtext": "10 people outdoors"
+						}
+					]
+				}
+			]
+		},
+		{
+			"zone": "Control - Red",
+			"color": "red",
+			"data": [
+				{
+					"title": "Organized public events, social gatherings and wedding, funeral and religious services, rites and ceremonies",
+					"desc": [
+						{
+							"text": "No indoor organized public events and social gatherings, except with members of the same household",
+							"subtext": "Individuals who live alone, including seniors, may consider having exclusive, close contact with another household to help reduce the negative impacts of social isolation"
+						},
+						{
+							"text": "Limit for outdoor organized public events and social gatherings, where physical distancing can be maintained:",
+							"subtext": "10 people outdoors"
+						}
+					]
+				}
+			]
+		},
+		{
+			"zone": "Restrict - Orange",
+			"color": "orange",
+			"data": [
+				{
+					"title": "Organized public events, social gatherings and wedding, funeral and religious services, rites and ceremonies",
+					"desc": [
+						{
+							"text": "No indoor organized public events and social gatherings, except with members of the same household",
+							"subtext": "Individuals who live alone, including seniors, may consider having exclusive, close contact with another household to help reduce the negative impacts of social isolation"
+						},
+						{
+							"text": "Limit for outdoor organized public events and social gatherings, where physical distancing can be maintained:",
+							"subtext": "10 people outdoors"
+						}
+					]
+				}
+			]
+		},
+		{
+			"zone": "Protect - Yellow",
+			"color": "yellow",
+			"data": [
+				{
+					"title": "Organized public events, social gatherings and wedding, funeral and religious services, rites and ceremonies",
+					"desc": [
+						{
+							"text": "No indoor organized public events and social gatherings, except with members of the same household",
+							"subtext": "Individuals who live alone, including seniors, may consider having exclusive, close contact with another household to help reduce the negative impacts of social isolation"
+						},
+						{
+							"text": "Limit for outdoor organized public events and social gatherings, where physical distancing can be maintained:",
+							"subtext": "10 people outdoors"
+						}
+					]
+				}
+			]
+		},
+		{
+			"zone": "Prevent - Green",
+			"color": "green",
+			"data": [
+				{
+					"title": "Organized public events, social gatherings and wedding, funeral and religious services, rites and ceremonies",
+					"desc": [
+						{
+							"text": "Limits for certain organized public events and social gatherings such as functions, parties, dinners, gatherings, barbeques or wedding receptions held in private residences, backyards, or parks, where physical distancing can be maintained:",
+							"subtext": "10 people indoors - 25 people outdoors"
+						},
+						{
+							"text": "Limits for organized public events and gatherings in staffed businesses and facilities, where physical distancing can be maintained:",
+							"subtext": "50 people indoors - 100 people outdoors"
+						},
+						{
+							"text": "Limits for religious services rites or ceremonies, including wedding services and funeral services, where physical distancing can be maintained (applies in any venue other than a private dwelling):",
+							"subtext": "30% capacity of the room indoors - 100 people outdoors"
+						}
+					]
+				}
+			]
+		}
+	]
+}
