@@ -3,6 +3,7 @@
 }
 
 .header-custom {
+	height: 75px;
 	justify-content: left;
 	display: inline-flex;
 	padding-left: 0px;
@@ -83,7 +84,7 @@
 }
 
 .chart-large {
-	min-width: 350px;
+	width: 350px;
 	height: 400px;
 }
 

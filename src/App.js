@@ -17,22 +17,12 @@ function App() {
 			<header className="header-custom">
 				<div className="nav-logo-container">
 					<img src={logo} className="App-logo" alt="logo" />
-					<b style={{ color: 'white' }}>Covid Canada</b>
+					<b style={{ color: 'white' }}>Covid StatSite</b>
 				</div>
-				<Menu className="fit-content" theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
-					<Menu.Item key="1">Statistics</Menu.Item>
-					<Menu.Item key="2">nav 2</Menu.Item>
-					<Menu.Item key="3">nav 3</Menu.Item>
-				</Menu>
 			</header>
 			<Layout>
 
 				<Layout style={{ padding: '0 24px 24px' }}>
-					<Breadcrumb style={{ margin: '16px 0' }}>
-						<Breadcrumb.Item>Home</Breadcrumb.Item>
-						<Breadcrumb.Item>List</Breadcrumb.Item>
-						<Breadcrumb.Item>App</Breadcrumb.Item>
-					</Breadcrumb>
 					<Content
 						className="site-layout-background"
 						style={{

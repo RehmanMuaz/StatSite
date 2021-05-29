@@ -68,7 +68,7 @@ export function DataPage() {
               </Col>
               <Col>
                 <Card title="Vaccination Progress" className="card-row-small">
-				{loading ? <Spin indicator={spinner} /> : <ProgressCircle value={(data.avaccine[data.avaccine.length - 1]["cumulative_avaccine"] / 14570000).toFixed(2)} />}
+				{loading ? <Spin indicator={spinner} /> : <ProgressCircle value={(data.avaccine[data.avaccine.length - 1]["cumulative_avaccine"] / 14570000 * 100).toFixed(2)} />}
                 </Card>
               </Col>
               <Col>
@@ -111,7 +111,7 @@ export function DataPage() {
                 <Card title="Daily Cases">    
                   {loading ? (<Skeleton />
                   ) : (
-                    <BasicLineChart data={data.cases} x={'date_report'} y={'cases'} />
+                    <BasicLineChart data={data.cases} x={'date_report'} y={'cases'}/>
                   )}
                   </Card>   
               </Col>
@@ -152,7 +152,7 @@ export function DataPage() {
                   {loading ? (<Skeleton />
                   ) : (
 						<AreaChart
-							width={600}
+							width={300}
 							height={300}
 							data={data.active}
 							margin={{
